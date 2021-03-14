@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="\uniapp\getprediction" method="post">
+    Enter University Name:<input type="text" name="uniname">
+    <br>Enter your GRE score: <input type="text" name="gre">
+    <br>Enter your IELTS: <input type="text" name="ielts">
+    <br>Enter your cgpa: <input type="text" name="cgpa">
+    <br><input type="submit">
+    <!--{{ prediction }}-->
+    {{ s }}
+    Accuracy is: {{ p }}
+</form>
+</body>
+</html>
